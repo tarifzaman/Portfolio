@@ -7,33 +7,38 @@ nav styles
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-  }
-
-.header{
-    background-image: url('../images/developer.png'),url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left , bottom right;
+        "wdth"100;
 }
-nav ul{
+
+.header {
+    background-image: url('../images/developer.png'), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+nav ul {
     display: flex;
     align-items: center;
 }
 
 /* shared style */
-.secondary-bg{
+
+.text-center{
+    text-align: center;
+}
+.secondary-bg {
     background-color: #fff8f3;
 }
 
-.text-primary{
+.text-primary {
     color: #fd6e0a;
 }
 
-.dark-2{
+.dark-2 {
     color: #474747;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #fd6e0a;
     font-weight: bold;
     font-size: 20px;
@@ -42,34 +47,37 @@ nav ul{
     padding: 18px 35px;
     border-radius: 5px;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
     color: #757575;
 }
 
-  /* nav style */
-nav{
-    display : flex;
+/* nav style */
+nav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    margin : 0px , 200px ;
+    margin: 0px, 200px;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800;
     font-size: 45px;
     margin-left: 200px;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
@@ -77,43 +85,61 @@ nav ul li a {
 
 /* banner style */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
 
-.banner-greetings{
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
 }
 
-.banner-title{
+.banner-title {
     font-weight: bold;
     font-size: 85px;
 }
 
-.banner-profile-pic{
+.banner-profile-pic {
     width: 580px;
 }
+
 /* main style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* about section */
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
-}
-.about-items{
-    display: flex;
-    justify-content: space-around;
     
 }
-.item-description{
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item-description {
     font-weight: 600;
+}
+
+/* skill section style  */
+.skills-container{
+    display: flex;
+    gap: 40px;
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgb(202, 202, 202);
 }
